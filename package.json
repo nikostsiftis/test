@@ -5,7 +5,7 @@
   "url" : "./bin",
   "bin" : {"devcycle" : "./bin/clitutorial" },
   "directories" : { "test" : "./test", "bin" "./bin" },
-  "dependecies" : { "commander" : ">=1.0.0"
+  "dependencies" : { "commander" : ">=1.0.0"
   },
   "repository" : {
              "type" : "git",
