@@ -1,2 +1,23 @@
 {
+  "name"   : "clitutorial",
+  "version" : "0.0.1",
+  "description" : " a sample CLi program created for a tutorial",
+  "url" : "./bin",
+  "bin" : {"devcycle" : "./bin/clitutorial" },
+  "directories" : { "test" : "./test", "bin" "./bin" },
+  "dependecies" : { "commander" : ">=1.0.0"
+  },
+  "repository" : {
+             "type" : "git",
+             "url" : "https://github.com/oscmejia/tutorial-nodejs-cli"
+  },
+  "scripts" : {
+              "test" : "./bin/clitutorial -h"
+  },
+  "keywords" : [ "CLI" , "tutorial"],
+  "author" : {  "name" : "Oscar Mejia",
+                "email" : "tcad.center@gmail.com"
+  },
+  "license" : "BSD"
+  
 }
